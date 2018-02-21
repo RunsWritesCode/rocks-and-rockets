@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('https://cameoglassuk.co.uk/wp-content/uploads/2017/04/blue-galaxy-1-600x600.jpg');
+
+}
+
+
+table {
+  margin: 0 auto;
+  height: 60vw;
+  width: 60vw;
+}
+
+table td {
+  height: 20vw;
+  width: 20vw;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 40px;
+  font-family: futura;
+  font-size: 1.2vw;
+
+}
+
+.gridCell {
+  height: 20vw;
+  width: 20vw;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 40px;
+
+}
