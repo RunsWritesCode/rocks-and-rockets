@@ -3,6 +3,9 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-image: url('https://cameoglassuk.co.uk/wp-content/uploads/2017/04/blue-galaxy-1-600x600.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: futura;
 
 }
 
@@ -19,11 +22,25 @@ table {
 table td {
   height: 20vw;
   width: 20vw;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(150, 255, 255, 0.7);
   border-radius: 50%;
   font-family: futura;
   font-size: 1.2vw;
   text-align: center;
+}
+
+#button-div{
+  text-align: center;
+}
+.restart-game-button{
+  cursor: pointer;
+  height: 50px;
+  width: 100px;
+  background-color: rgba(150, 255, 255, 0.7);
+  z-index: 1;
+  text-align: center;
+  font-family: futura;
+  font-size: 2vw
 }
 
 .gridCell {
