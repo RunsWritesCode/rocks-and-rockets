@@ -51,7 +51,10 @@ class Game extends React.Component {
 
 
   render(){
-    return( <div>
+    return(
+
+      <div>
+        <h1>Awesome Rocks and Rockets!</h1>
     <Board
       player={this.state.player}
       board={this.state.gameboard}

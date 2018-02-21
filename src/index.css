@@ -6,6 +6,9 @@ body {
 
 }
 
+img {
+  width: 18vw;
+}
 
 table {
   margin: 0 auto;
@@ -17,16 +20,25 @@ table td {
   height: 20vw;
   width: 20vw;
   background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 40px;
+  border-radius: 50%;
   font-family: futura;
   font-size: 1.2vw;
-
+  text-align: center;
 }
 
 .gridCell {
   height: 20vw;
   width: 20vw;
   background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
 
+button:focus {
+  outline:0;
+}
+
+h1 {
+  text-align: center;
+  color: white;
 }
