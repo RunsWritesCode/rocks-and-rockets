@@ -16,6 +16,15 @@ class Cell extends React.Component{
       this.setState({ contents: this.props.contents });
     }
 
+    checkImage(){
+      if(this.props.contents === "X"){
+        return ("/rocket.png")
+      }
+      else{
+        return ("/asteroid.png")
+      }
+    }
+
     render(){
       if (this.props.contents === "" && this.props.gameWon === false) {
         return(
@@ -23,9 +32,11 @@ class Cell extends React.Component{
             <button className="gridCell" onClick={this.selectSquare}></button>
             </td>
         )
+
       }
       return (
-          <td>{ this.props.contents }
+
+          <td><img src={this.checkImage()}/>
           </td>
         )
       }
