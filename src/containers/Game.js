@@ -1,5 +1,6 @@
 import React from 'react';
-import Board from "../components/Board"
+import Board from "../components/Board";
+import GameStatus from '../components/GameStatus';
 
 
 class Game extends React.Component {
@@ -64,6 +65,10 @@ class Game extends React.Component {
       update={this.update}
       finish={this.setVictor}
     />
+    <GameStatus winner={this.state.winner}
+          currentPlayer={this.state.player}
+          won={this.state.won}
+          turns={this.state.turns}/>
   </div>)
   }
 
